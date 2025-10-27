@@ -1,0 +1,13 @@
+{
+    "name": "merkl-boost-api",
+    "version": "1.0.0",
+    "description": "Simple API for Merkl boost with MULTIPLY function",
+    "main": "api/boost.js",
+    "scripts": {
+      "start": "vercel dev"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "vercel": "^28.0.0"
+    }
+  }

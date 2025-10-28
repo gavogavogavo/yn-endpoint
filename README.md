@@ -2,11 +2,11 @@ to add a new wallet address to the whitelist, add it in the whitelist.json file
 
 to test API endpoint, use the command below and add the list of wallet addresses in the whitelist.json file. 
 
-curl -X POST https://yn-endpoint.vercel.app/api/boost \     
+curl -X POST https://yn-endpoint.vercel.app/api/boost \
   -H "Content-Type: application/json" \
   -d '{
     "addresses": [
-      "0x1f0d16f1c44fa04511ad58360782b1a67e1f5dc0", 
+      "0x1f0d16f1c44fa04511ad58360782b1a67e1f5dc0",
       "0x328c9417a862df04255c9744af4d59e326063dde",
       "0x3dab62f33e7032bd33c532808092d033887eb456",
       "0x1597e4b7cf6d2877a1d690b6088668afdb045763",
@@ -15,8 +15,17 @@ curl -X POST https://yn-endpoint.vercel.app/api/boost \
       "0xF5B905Bd11A7a42b5f2Fdf334Ac8377390BC7268",
       "0x4200Db6f030508941e60Ae23D9d0D2D92363fd8A",
       "0x6f199F00655e0D3e9c1f2B654570758CA1e33759",
-      "0xe4139f5ea6e995f4518232acb1293bd879a1d177",
-      "0x72ea177fc9ed87bdc17066256dffbbb0d65d6565"
+      "0xe4139f5ea6e995f4518232acb1293bd879a1d177", 
+      "0x72ea177fc9ed87bdc17066256dffbbb0d65d6565",
+      "0xf4Abe809aB5Ac0dF896A1DEE3F010C96e1ECE10A",
+      "0x3E6b5D3881cb96a0Cb68c5bB475ED02d6cAd1671",
+      "0x8FB7AD87d1FaE2b4EDdf0ff409a0908Dbb721A5f",
+      "0x3daB62f33E7032bD33C532808092D033887EB456",
+      "0xD2Bdd7e4468c5FDB111a7DB22Fc6338f89a7353e",
+      "0xcfd765472e350E8f42d27db9a273fbdc9aA44Af9",
+      "0xeB46C77A1d77985e9c8CB6279478eb8b8f892ee4",
+      "0x89b5322e2fcee4faad79b29c920d1cf846933c89",
+      "0x7FC00a453988Cb054A473525c31b66E1cD5BC67D"
     ]
   }'
 
